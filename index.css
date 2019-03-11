@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+#content{
+    align-self: center;
+    margin: auto;
+    width: 25vw;
+}
+h5{
+    margin-left:45%;
+}
+#line{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
