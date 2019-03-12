@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // The Markov Generator
   // First argument is N-gram length, second argument is max length of generated text
-  var markov = new RiMarkov(4);
+  var markov = new RiMarkov(8);
 
   markov.loadFrom('poetry.txt', function(){
     if(markov.ready()) {
